@@ -336,24 +336,3 @@ chown -R www-data:www-data /var/www/html/
 
 ```
 
-
-
-```
-
----
-
-### ¿Cómo se incluye esto en tu repositorio de Git?
-
-1. **Solo debe haber un archivo `README.md`** en la raíz de tu repositorio de GitHub. 
-2. Para incluirlo:
-   - Crea un archivo llamado exactamente `README.md` en la carpeta principal de tu proyecto en tu equipo local.
-   - Pega todo el contenido del bloque de código anterior dentro de ese archivo.
-   - Súbelo a tu repositorio de GitHub con los siguientes comandos en tu terminal:
-     ```bash
-     git add README.md
-     git commit -m "Añadida la guía completa de instalación de LAMP y WordPress"
-     git push origin main
-     ```
-GitHub detectará automáticamente el archivo `README.md` y lo mostrará de manera visual y formateada directamente en la página principal de tu repositorio.
-
-```
